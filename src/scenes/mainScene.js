@@ -504,7 +504,6 @@ export default class MainScene extends Phaser.Scene {
 			this.raw_x = this.user_cursor.x = CURSOR_RESTORE_POINT
 			this.user_cursor.visible = true
 			this.target.visible = false
-			this.jumptarget.visible = false
 			this.endpoint_cursor.visible = false
 			this.tweens.add({
 			  targets: this.user_cursor,
