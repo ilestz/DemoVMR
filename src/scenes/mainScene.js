@@ -5,9 +5,8 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable keyword-spacing */
 /* eslint-disable space-before-blocks */
-import { TypingText } from '../objects/typingtext'
+import { TypingText } from '../utils/typingtext'
 import { Enum } from '../utils/enum'
-import BasicExample from '../objects/examples'
 import merge_data from '../utils/merge'
 import { clamp } from '../utils/clamp'
 import signedAngleDeg from '../utils/angulardist'
