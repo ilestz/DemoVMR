@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "esbuild src/game.js --outfile=public/bundle.js --target=es6 --servedir=public --bundle --define:DEBUG=true",
+    "prod": "esbuild src/game.js --outfile=public/bundle.js --minify --target=es6 --bundle --define:DEBUG=false",
+    "prod-dev": "npm run prod && netlify dev"
+  },
+  "dependencies": {
+    "faunadb": "^4.8.0",
+    "form-data": "^4.0.0",
+    "mailgun.js": "^9.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.18.14",
+    "eslint": "^8.45.0",
+    "phaser": "^3.60.0",
+    "phaser3-rex-plugins": "^1.60.3",
+    "ua-parser-js": "^1.0.35"
+  }
+}
